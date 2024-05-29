@@ -1,0 +1,179 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Calendario do Cyber</title>
+  <script defer="" src="/static/js/bundle.js"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;   /* Cor de fundo background-color: #131313; */
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0VBQ2xDLHlCQUF5QixJQUFJLDRDQUE0QztFQUN6RSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRTthQUNXO0FBQ2IiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcclxuICBtYXJnaW46IDA7XHJcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxyXG4gICAgJ1VidW50dScsICdDYW50YXJlbGwnLCAnRmlyYSBTYW5zJywgJ0Ryb2lkIFNhbnMnLCAnSGVsdmV0aWNhIE5ldWUnLFxyXG4gICAgc2Fucy1zZXJpZjtcclxuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcclxuICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7ICAgLyogQ29yIGRlIGZ1bmRvIGJhY2tncm91bmQtY29sb3I6ICMxMzEzMTM7ICovXHJcbiAgY29sb3I6IHdoaXRlO1xyXG59XHJcblxyXG5jb2RlIHtcclxuICBmb250LWZhbWlseTogc291cmNlLWNvZGUtcHJvLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgJ0NvdXJpZXIgTmV3JyxcclxuICAgIG1vbm9zcGFjZTtcclxufVxyXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.Botao{
+    background-color: #000000;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 16px 0;
+}
+
+.Botao:hover{
+    color :#b15e27
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9Cb3Rhby9ib3Rhby5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSx5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsYUFBYTtJQUNiLFlBQVk7SUFDWixlQUFlO0lBQ2YsV0FBVztJQUNYLGNBQWM7QUFDbEI7O0FBRUE7SUFDSTtBQUNKIiwic291cmNlc0NvbnRlbnQiOlsiLkJvdGFve1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG4gICAgcGFkZGluZzogMzJweDtcclxuICAgIGJvcmRlcjogbm9uZTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIGNvbG9yOiAjRkZGO1xyXG4gICAgbWFyZ2luOiAxNnB4IDA7XHJcbn1cclxuXHJcbi5Cb3Rhbzpob3ZlcntcclxuICAgIGNvbG9yIDojYjE1ZTI3XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.BotaoLista{
+    /* display: none; */
+    background-color: #212121;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 16px 0;
+}
+
+.BotaoLista:hover{
+    color :#b15e27
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9Cb3Rhb0xpc3RhL2JvdGFvTGlzdGEuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0lBQ25CLHlCQUF5QjtJQUN6QixtQkFBbUI7SUFDbkIsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixhQUFhO0lBQ2IsWUFBWTtJQUNaLGVBQWU7SUFDZixXQUFXO0lBQ1gsY0FBYztBQUNsQjs7QUFFQTtJQUNJO0FBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyIuQm90YW9MaXN0YXtcclxuICAgIC8qIGRpc3BsYXk6IG5vbmU7ICovXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjEyMTIxO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICBwYWRkaW5nOiAzMnB4O1xyXG4gICAgYm9yZGVyOiBub25lO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgY29sb3I6ICNGRkY7XHJcbiAgICBtYXJnaW46IDE2cHggMDtcclxufVxyXG5cclxuLkJvdGFvTGlzdGE6aG92ZXJ7XHJcbiAgICBjb2xvciA6I2IxNWUyN1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.campo-texto{
+    margin: 24px 0;
+}
+
+.campo-texto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campo-texto input{
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9DYW1wb1RleHRvL0NhbXBvVGV4dG8uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QiwyQ0FBMkM7SUFDM0MsV0FBVztJQUNYLFlBQVk7SUFDWixlQUFlO0lBQ2YsYUFBYTtJQUNiLHNCQUFzQjtBQUMxQiIsInNvdXJjZXNDb250ZW50IjpbIi5jYW1wby10ZXh0b3tcclxuICAgIG1hcmdpbjogMjRweCAwO1xyXG59XHJcblxyXG4uY2FtcG8tdGV4dG8gbGFiZWwge1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBtYXJnaW4tYm90dG9tOiA4cHg7XHJcbiAgICBmb250LXNpemU6IDI0cHg7XHJcbn1cclxuXHJcbi5jYW1wby10ZXh0byBpbnB1dHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkY7XHJcbiAgICBib3gtc2hhZG93OiAxMHB4IDEwcHggMzBweCByZ2JhKDAsMCwwLDAuMDYpO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDI0cHg7XHJcbiAgICBwYWRkaW5nOiAyNHB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.lista-suspensa label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+
+}
+
+.lista-suspensa select{
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9MaXN0YVN1c3BlbnNhL0xpc3RhU3VzcGVuc2EuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztJQUNkLGtCQUFrQjtJQUNsQixlQUFlOztBQUVuQjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QiwyQ0FBMkM7SUFDM0MsV0FBVztJQUNYLFlBQVk7SUFDWixlQUFlO0lBQ2YsYUFBYTtJQUNiLHNCQUFzQjtBQUMxQiIsInNvdXJjZXNDb250ZW50IjpbIi5saXN0YS1zdXNwZW5zYSBsYWJlbHtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogOHB4O1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG5cclxufVxyXG5cclxuLmxpc3RhLXN1c3BlbnNhIHNlbGVjdHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkY7XHJcbiAgICBib3gtc2hhZG93OiAxMHB4IDEwcHggMzBweCByZ2JhKDAsMCwwLDAuMDYpO1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICBmb250LXNpemU6IDI0cHg7XHJcbiAgICBwYWRkaW5nOiAyNHB4O1xyXG4gICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.formulario form{
+    max-width: 80%;
+    background-color: rgb(54, 54, 54);
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0 , 0, 0);
+}
+
+.formularioLista form{
+    max-width: 80%;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0 , 0, 0);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9Gb3JtdWxhcmlvL0Zvcm11bGFyaW8uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksY0FBYztJQUNkLGlDQUFpQztJQUNqQyxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBQ2xCLDBDQUEwQztBQUM5Qzs7QUFFQTtJQUNJLGNBQWM7SUFDZCx5QkFBeUI7SUFDekIsbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUNsQiwwQ0FBMEM7QUFDOUMiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9ybXVsYXJpb3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbjogODBweCAwO1xyXG59XHJcblxyXG4uZm9ybXVsYXJpbyBmb3Jte1xyXG4gICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoNTQsIDU0LCA1NCk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgcGFkZGluZzogMzZweCA2NHB4O1xyXG4gICAgYm94LXNoYWRvdzogOHB4IDhweCAxNnB4IHJnYmEoMCwgMCAsIDAsIDApO1xyXG59XHJcblxyXG4uZm9ybXVsYXJpb0xpc3RhIGZvcm17XHJcbiAgICBtYXgtd2lkdGg6IDgwJTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgcGFkZGluZzogMzZweCA2NHB4O1xyXG4gICAgYm94LXNoYWRvdzogOHB4IDhweCAxNnB4IHJnYmEoMCwgMCAsIDAsIDApO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.colaborador {
+    width: 280px;
+}
+
+.colaborador .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.colaborador img {
+    width: 200px;
+    height: 280px;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .rodape {
+    background: #080808; /* Cor inferior do card */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9Db2xhYm9yYWRvci9Db2xhYm9yYWRvci5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksMEJBQTBCO0lBQzFCLGdDQUFnQztBQUNwQzs7QUFFQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLGFBQWE7QUFDakI7O0FBRUE7SUFDSSxtQkFBbUIsRUFBRSx5QkFBeUI7SUFDOUMsNENBQTRDO0lBQzVDLGdDQUFnQztJQUNoQyxpQkFBaUI7SUFDakIsb0JBQW9CO0FBQ3hCIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbGFib3JhZG9yIHtcclxuICAgIHdpZHRoOiAyODBweDtcclxufVxyXG5cclxuLmNvbGFib3JhZG9yIC5jYWJlY2FsaG8ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogICNGMEYwRjA7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4IDEwcHggMHB4IDBweDtcclxufVxyXG5cclxuLmNvbGFib3JhZG9yIGltZyB7XHJcbiAgICB3aWR0aDogMjAwcHg7XHJcbiAgICBoZWlnaHQ6IDI4MHB4O1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgYm90dG9tOiAtNTBweDtcclxufVxyXG5cclxuLmNvbGFib3JhZG9yIC5yb2RhcGUge1xyXG4gICAgYmFja2dyb3VuZDogIzA4MDgwODsgLyogQ29yIGluZmVyaW9yIGRvIGNhcmQgKi9cclxuICAgIGJveC1zaGFkb3c6IDVweCA1cHggMTVweCByZ2JhKDAsIDAsIDAsIDAuMDgpO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMHB4IDBweCAxMHB4IDEwcHg7XHJcbiAgICBwYWRkaW5nLXRvcDogOTBweDtcclxuICAgIHBhZGRpbmctYm90dG9tOiA0MHB4O1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.time {
+    text-align: center;
+    padding: 32px;
+    /* width: 14%; */
+    display: inline-block;
+}
+
+ .time h3{
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.time .colaboradores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-top: 32px;
+    flex-direction: column;
+} 
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnRlcy9UaW1lL3RpbWUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0lBQ2xCLGFBQWE7SUFDYixnQkFBZ0I7SUFDaEIscUJBQXFCO0FBQ3pCOztDQUVDO0lBQ0csZUFBZTtJQUNmLHdCQUF3QjtJQUN4QixxQkFBcUI7SUFDckIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLDZCQUE2QjtJQUM3QixtQkFBbUI7SUFDbkIsU0FBUztJQUNULGdCQUFnQjtJQUNoQixzQkFBc0I7QUFDMUIiLCJzb3VyY2VzQ29udGVudCI6WyIudGltZSB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBwYWRkaW5nOiAzMnB4O1xyXG4gICAgLyogd2lkdGg6IDE0JTsgKi9cclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxufVxyXG5cclxuIC50aW1lIGgze1xyXG4gICAgZm9udC1zaXplOiAzMnB4O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogNHB4IHNvbGlkO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgcGFkZGluZy1ib3R0b206IDhweDtcclxufVxyXG5cclxuLnRpbWUgLmNvbGFib3JhZG9yZXN7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgZ2FwOiA1MHB4O1xyXG4gICAgbWFyZ2luLXRvcDogMzJweDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn0gIl0sInNvdXJjZVJvb3QiOiIifQ== */</style></head>
+  <body class="vsc-initialized">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><section class="time" style="background-color: rgb(70, 33, 0);"><h3 style="border-color: rgb(179, 81, 0);">Domingo</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(179, 81, 0);"><a href="https://www.crunchyroll.com/pt-br/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/141251l-213x300.jpg" alt="Mushoku Tensei II"></a></div><div class="rodape"><h2>Mushoku Tensei II</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(179, 81, 0);"><a href="https://animesonlinecc.to/anime/sentai-daishikkaku/" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/139017l-213x300.jpg" alt="Sentai Daishikkaku"></a></div><div class="rodape"><h2>Sentai Daishikkaku</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(179, 81, 0);"><a href="https://www.crunchyroll.com/pt-br/series/G79H23V0G/the-duke-of-death-and-his-maid" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/140713l-212x300.jpg" alt="Shinigami Bocchan"></a></div><div class="rodape"><h2>Shinigami Bocchan</h2></div></div></div></section><section class="time" style="background-color: rgb(14, 65, 47);"><h3 style="border-color: rgb(50, 138, 93);">Segunda</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(50, 138, 93);"><a href="https://www.crunchyroll.com/pt-br/series/GNVHKN952/remonster" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/138576l-212x300.jpg" alt="Re:Monster"></a></div><div class="rodape"><h2>Re:Monster</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(50, 138, 93);"><a href="https://www.crunchyroll.com/pt-br/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/139120l-213x300.jpg" alt="Lv2 kara Cheat"></a></div><div class="rodape"><h2>Lv2 kara Cheat</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(50, 138, 93);"><a href="https://www.crunchyroll.com/pt-br/series/G1XHJV08M/spice-and-wolf-merchant-meets-the-wise-wolf" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/136743l-213x300.jpg" alt="Ookami to Koushinryou"></a></div><div class="rodape"><h2>Ookami to Koushinryou</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(50, 138, 93);"><a href="https://www.crunchyroll.com/pt-br/series/GZJH3D719/tsukimichi--moonlit-fantasy-" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2023/11/139314l-214x300.jpg" alt="Tsuki ga Michibiku"></a></div><div class="rodape"><h2>Tsuki ga Michibiku</h2></div></div></div></section><section class="time" style="background-color: rgb(0, 45, 65);"><h3 style="border-color: rgb(5, 81, 124);">Terça</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(5, 81, 124);"><a href="https://www.crunchyroll.com/pt-br/series/G9VHN9QXQ/unnamed-memory" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/140340l.jpg" alt="Unnamed Memory"></a></div><div class="rodape"><h2>Unnamed Memory</h2></div></div></div></section><section class="time" style="background-color: rgb(35, 44, 11);"><h3 style="border-color: rgb(85, 106, 29);">Quarta</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(85, 106, 29);"><a href="https://www.crunchyroll.com/pt-br/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/141268l-212x300.jpg" alt="Kono Subarashii 3"></a></div><div class="rodape"><h2>Kono Subarashii 3</h2></div></div></div></section><section class="time" style="background-color: rgb(61, 5, 8);"><h3 style="border-color: rgb(132, 29, 27);">Quinta</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(132, 29, 27);"><a href="https://www.crunchyroll.com/pt-br/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/141203l-212x300.jpg" alt="Maou no Ore ga Dorei"></a></div><div class="rodape"><h2>Maou no Ore ga Dorei</h2></div></div></div></section><section class="time" style="background-color: rgb(55, 12, 42);"><h3 style="border-color: rgb(128, 32, 103);">Sexta</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(128, 32, 103);"><a href="https://www.crunchyroll.com/pt-br/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/140405l-212x300.jpg" alt="Slime Season 3"></a></div><div class="rodape"><h2>Slime Season 3</h2></div></div></div></section><section class="time" style="background-color: rgb(55, 41, 0);"><h3 style="border-color: rgb(151, 109, 0);">Sabado</h3><div class="colaboradores"><div class="colaborador"><div class="cabecalho" style="background-color: rgb(151, 109, 0);"><a href="https://www.crunchyroll.com/pt-br/series/GG5H5XQ7D/kaiju-no-8" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/131860l-212x300.jpg" alt="Kaijuu No.8"></a></div><div class="rodape"><h2>Kaijuu No.8</h2></div></div><div class="colaborador"><div class="cabecalho" style="background-color: rgb(151, 109, 0);"><a href="https://www.crunchyroll.com/pt-br/series/G9VHN9QWQ/studio-apartment-good-lighting-angel-included" target="_blank"><img src="https://www.intoxianime.com/wp-content/uploads/2024/02/138922l-225x300.jpg" alt="One Room, Hi Atari Futsuu"></a></div><div class="rodape"><h2>One Room, Hi Atari Futsuu</h2></div></div></div></section></div></div>
+    
+  
+
+</body></html>
